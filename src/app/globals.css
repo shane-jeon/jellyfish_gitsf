@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/Users/shanejeon/Desktop/gitsf_hackathon/jellyfish_gitsf/public/fonts/Sen-Regular.ttf') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/Users/shanejeon/Desktop/gitsf_hackathon/jellyfish_gitsf/public/fonts/Sen-Bold.ttf') format('tff');
+  font-weight: bold;
+  font-style: normal;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
