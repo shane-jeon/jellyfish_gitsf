@@ -6,16 +6,9 @@ import Footer from 'src/app/components/Footer.jsx'
 export default function Home() {
   return (
     <>
-    <header>
-
-    </header>
-    <main>
       <Hero />
       <DonorProfile />
-    </main>
-    <footer>
       <Footer />
-    </footer>
     </>
   )
 }
