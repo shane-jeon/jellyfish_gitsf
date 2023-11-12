@@ -7,12 +7,13 @@ import younggirl from "../../../public/assets/younggirl.png"
 export default function UpcomingProject() {
   return(
     <>
-    <div className="relative">
+    <div className="relative px-4">
       <Image src={younggirl} />
-
-      <div className="absolute bottom-5 w-52">
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-b from-transparent to-white"></div>
+      <div className="absolute bottom-5 w-52 text-[#FFFFFF] ">
         {/* replace with prop for future implementation */}
-        <h2 className="text-[#FFFFFF] text-xl">9 girls entering 11th grade</h2>
+        <h2 className="text-xl">9 girls entering 11th grade</h2>
+        <p>Loren Ipsum</p>
       </div>
     </div>
     </>
