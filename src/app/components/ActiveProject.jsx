@@ -6,7 +6,7 @@ import activeProjectGirl from "../../../public/assets/active-project-girl.png";
 
 export default function ActiveProject({ progressPercent }) {
   return (
-    <div className="w-6/8 relative mx-6 mt-2 rounded-xl">
+    <div className="w-6/8 relative mt-2 rounded-xl">
       <Image src={activeProjectGirl} />
 
       <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#25348F] via-[#25348F]  to-transparent opacity-60"></div>
@@ -23,7 +23,7 @@ export default function ActiveProject({ progressPercent }) {
           Disabled Kids <br />
           Program
         </h3>
-        <span className="mx-3 flex justify-end text-3xl text-xl font-semibold text-[#FFFFFF]">
+        <span className="mx-3 flex justify-end text-3xl text-5xl font-semibold text-[#FFFFFF]">
           {progressPercent}
         </span>
       </div>
