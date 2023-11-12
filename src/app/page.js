@@ -6,11 +6,9 @@ import UpcomingProject from 'src/app/components/UpcomingProject.jsx'
 export default function Home() {
   return (
     <>
-    <div className="">
-
+      {/* <Hero /> */}
       <DonorProfile />
-      <UpcomingProject />
-    </div>
+      {/* <Footer /> */}
     </>
   )
 }
