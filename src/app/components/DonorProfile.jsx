@@ -8,8 +8,8 @@ export default function DonorProfile() {
   const progressPercent = ['70%', '100%'];
 
   return (
-    <div className="w-2/6 h-full p-3 bg-[#FFFFFF] drop-shadow-2xl rounded-3xl">
-      <div className="flex flex-row items-center p-6">
+    <div className="w-2/6 h-full p-6 bg-[#FFFFFF] drop-shadow-2xl rounded-3xl">
+      <div className="flex flex-row items-center">
         <Image
           src={donorSelfie}
           className="w-16 h-16 rounded-full object-cover"
@@ -19,14 +19,14 @@ export default function DonorProfile() {
         </h1>
       </div>
       <div className="flex flex-row justify-center">
-        <div className="w-12 h-12 border-2 mx-2 rounded-full bg-[#25348F]"></div>
-        <div className="w-12 h-12 border-2 mx-2 rounded-full bg-[#25348F]"></div>
-        <div className="w-12 h-12 border-2 mx-2 rounded-full border-dashed border-[#25348F]"></div>
-        <div className="w-12 h-12 border-2 mx-2 rounded-full bg-[#25348F]"></div>
-        <div className="w-12 h-12 border-2 mx-2 rounded-full border-dashed border-[#25348F]"></div>
+        <div className="w-12 h-12 border-2 m-2 rounded-full bg-[#25348F] border-[#25348F]"></div>
+        <div className="w-12 h-12 border-2 m-2 rounded-full bg-[#25348F] border-[#25348F]"></div>
+        <div className="w-12 h-12 border-2 m-2 rounded-full border-dashed border-[#25348F]"></div>
+        <div className="w-12 h-12 border-2 m-2 rounded-full bg-[#25348F] border-[#25348F]"></div>
+        <div className="w-12 h-12 border-2 m-2 rounded-full border-dashed border-[#25348F]"></div>
       </div>
       <div>
-        <h2 className="mx-6 mt-8 text-2xl font-semibold text-[#25348F]">
+        <h2 className="mt-8 text-2xl font-semibold text-[#25348F]">
           Your Donation History
         </h2>
         <div>
