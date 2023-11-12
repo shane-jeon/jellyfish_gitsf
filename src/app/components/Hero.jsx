@@ -6,6 +6,7 @@ export default function Hero() {
     <div>
       <h1 className="font-bold font-sen">Hello World</h1>
       <h1 className="">HelloWorld</h1>
+      <h2> hello world</h2>
       <Image
       className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
       src="/next.svg"
