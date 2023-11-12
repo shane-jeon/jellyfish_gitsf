@@ -3,7 +3,7 @@ import Image from "next/image";
 import UpcomingProject from ".//UpcomingProject.jsx";
 
 // props for number of girls entering whatever grade
-
+// added page, testing for branch merge
 export default function MoreSupport() {
   const numOfCards = 5;
 
