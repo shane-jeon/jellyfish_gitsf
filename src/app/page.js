@@ -8,11 +8,9 @@ import ActiveProject from 'src/app/components/ActiveProject.jsx'
 export default function Home() {
   return (
     <>
-      <NavBar />
-      {/* <Hero /> */}
+      <Hero />
       <DonorProfile />
-      <ActiveProject />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
