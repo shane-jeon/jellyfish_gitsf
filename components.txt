@@ -1,5 +1,8 @@
 1. navbar
-2. footer
-3. 
-4. 
-5.
+2. DonorProfile
+3. ActiveProject
+4. UpcomingProject
+5. ProjectPageLeft
+6. FundingBar
+7. ProjectPageGoal
+8. Footer
