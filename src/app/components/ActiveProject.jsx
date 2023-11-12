@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import activeProjectGirl from "../../../public/assets/active-project-girl.png";
 
-// props for number of girls entering whatever grade
+<div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#25348F] via-[#25348F]  to-transparent opacity-60"></div>;
 
 export default function ActiveProject({ progressPercent }) {
   return (
